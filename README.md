@@ -1,7 +1,7 @@
 # JDBC_Mysql
 
-CREATE USER 'root'@'%' IDENTIFIED BY 'admin'
-GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
+CREATE USER 'root'@'IP Address' IDENTIFIED BY 'admin'
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'IP Address' WITH GRANT OPTION;
 FLUSH privileges
 
 SELECT User,Host FROM mysql.user;
